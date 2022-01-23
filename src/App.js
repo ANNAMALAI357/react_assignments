@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Sample from './Day3/Assignment_3/Sample';
+import Sample from './Day3/Assignment_1/Sample';
 
 function App() {
   return (
