@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Sample from './Day3/Assignment_1/Sample';
+import Sample from './Day3/Assignment_2/Sample.js';
 
 function App() {
   return (
     <>
-    <Sample x={1} y={2} z={3} />
-    <Sample x={5} y={10} z={3} />
-    <Sample x={1} y={3} z={1} />
+    <Sample a={1} b={2} c={3} />
+    <Sample a={5} b ={10} c={3} />
+    <Sample a={1} b={3} c={1} />
   </>
   )
 }
