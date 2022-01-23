@@ -1,25 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Sample from './Day3/Assignment_3/Sample';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Sample x={1} y={2} z={3} />
+    <Sample x={5} y={10} z={3} />
+    <Sample x={1} y={3} z={1} />
+  </>
+  )
 }
 
 export default App;
