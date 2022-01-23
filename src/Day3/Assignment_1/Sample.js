@@ -4,7 +4,7 @@ export default function Sample(props){                        // component defin
         let b = 3                                             // assigning value to variable using let
         const c = 3                                           // assigning value to variable using const
 
-        return "X+A is "+(props.x+a)+" Y+B is "+(props.y+b)+" Z+C is "+(props.z+c)
+        return "X+A is "+(props.x+a)+", Y+B is "+(props.y+b)+", Z+C is "+(props.z+c)
                                                               // returning the sum by calling the props value and the local vaariables
     }
     return(                                                  //calling the function
